@@ -1,0 +1,20 @@
+.auth-container{
+    background-color: pink;
+    /* background-color: red; */
+    width: 300px;
+    height: auto;
+    z-index: 500;
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+}
+
+.btn-auth {
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0.5rem 0.5rem;
+    border: 0;
+    margin: 0.2rem 0;
+    background-color: transparent;
+  }

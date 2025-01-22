@@ -1,0 +1,23 @@
+.leftsidebar-container{
+width: 6.5rem;
+height: calc(100vh - 3.55rem);
+/* min-height: calc(100vh - 3.55rem); */
+/* height: auto; */
+background-color: rgb(37, 37, 37);
+display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+}
+
+.icon-sidebar-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.5rem;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.855);
+padding: 5px;
+font-size:medium;
+}
+
+
