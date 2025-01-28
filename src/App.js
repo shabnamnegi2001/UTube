@@ -11,7 +11,7 @@ const [toggledrawerSidebar, setToggledrawerSidebar] = useState({
   });
 
   const toggleDrawer = () => {
-    if(toggledrawerSidebar === "none"){
+    if(toggledrawerSidebar.display === "none"){
       setToggledrawerSidebar({
         display: "flex",
       }); 
@@ -28,7 +28,7 @@ const [videoUploadPage, setVideoUploadPage] = useState(false);
   return (
     <Router>
     <Navbar setEditCreateChanelBtn={setEditCreateChanelBtn} toggleDrawer={toggleDrawer} />
-    {/* <DrawerSliderbar toggleDrawer={toggleDrawer} setToggledrawerSidebar={setToggledrawerSidebar}/> */}
+    <DrawerSliderbar toggleDrawer={toggleDrawer} setToggledrawerSidebar={setToggledrawerSidebar}  toggledrawerSidebar={toggledrawerSidebar}/>
     <Allroutes />
     </Router>
   );

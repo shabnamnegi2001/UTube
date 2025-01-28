@@ -13,14 +13,14 @@ import Auth from '../../Pages/auth/Auth';
 const Navbar = ({setEditCreateChanelBtn, toggleDrawer}) => {
 
 const [authBtn ,setAuthBtn] = useState(false);
-const currentUser = null;
-// const currentUser = {
-//   result:{
-//     name: "radha",
-//     email : "abc@gmail.com",
-//     joinedOn : "33-12-2039"
-//   }
-// }
+// const currentUser = null;
+const currentUser = {
+  result:{
+    name: "radha",
+    email : "abc@gmail.com",
+    joinedOn : "33-12-2039"
+  }
+}
 
   return (
     <>
@@ -85,7 +85,7 @@ const currentUser = null;
     {
     authBtn &&
       <Auth
-      //  user={currentUser} setAuthBtn={setAuthBtn()} setEditCreateChanelBtn={setEditCreateChanelBtn}
+       user={currentUser} setAuthBtn={setAuthBtn} setEditCreateChanelBtn={setEditCreateChanelBtn}
        />
     }
     </>

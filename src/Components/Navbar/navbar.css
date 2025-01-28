@@ -33,15 +33,16 @@
     align-items: center;
   }
 .apps-box{
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 .app{
-  height: 2px ;
-  width: 2px;
+  height: 3px ;
+  width: 3px;
   border: 1px solid white;
   margin: 0.1rem;
 }

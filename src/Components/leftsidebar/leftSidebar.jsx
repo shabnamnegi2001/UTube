@@ -32,19 +32,6 @@ const LeftSidebar = () => {
       < MdOutlineVideoLibrary size={22} className='icon-sidebar'/>
       <div className='icon-sidebar-text'>Library</div>
       </NavLink>
-
-      <NavLink to={'/'} className='icon-sidebar-div'>
-      <AiOutlineHome size={22} className='icon-sidebar'/>
-      <div className='icon-sidebar-text'>Home</div>
-      </NavLink>
-      <div className='icon-sidebar-div'>
-        <MdOutlineExplore size={22} className='icon-sidebar'/>
-        <div className='icon-sidebar-text'>Explore</div>
-      </div>
-      <div className='icon-sidebar-div'>
-        < SiYoutubeshorts size={22} className='icon-sidebar'/>
-        <div className='icon-sidebar-text'>Shorts</div>
-      </div>
     </div>
   )
 }

@@ -18,12 +18,13 @@ const Searchbar = () => {
     <div className='seachbar-container2'>
     <div className='search-div'>
       <input type='text' className='search-input' placeholder='Search' value={searchQuery} onChange={e => setSearchQuery(e.target.value)} onClick={e => setSearchList(true) }/>  
-      <Link>
-      <div className='search-mic-nav'>
+      <Link to={`/search/${searchQuery}`}>
+      <div className='search-nav '>
       <CiSearch className='search-icon'  size={24} />
-      <BsMicFill className='mic-search-icon' size={24}/>
       </div>
       </Link>
+      <BsMicFill className='mic-search-icon' size={24}/>
+
     </div>
     {
      searchList && searchQuery &&

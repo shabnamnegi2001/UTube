@@ -8,18 +8,24 @@ const Auth = (
 ) => {
     return(
         
-        <>
-       <div className='auth-container-nav' onClick={() => setAuthBtn(false)}>
-        <div className='auth-container'>
-            <p className='user-details'>
+    <>
+    <div className='auth-container-nav' onClick={(e) => {
+        e.stopPropagation(); setAuthBtn(false) }}>
+      <div className='auth-container'
+        onClick={(e) => {
+        e.stopPropagation() } } >
+    <div className='user-nav'>
+        <div className='user-details'>
                 {user?.result.name?(
                     <>{user?.result.name.charAt(0).toUpperCase()}</>
                 ): (
                     <>{user?.result.email.charAt(0).toUpperCase()}</>
                 )
                 }
-            </p>
+        </div>
         <div className='email-auth'>{user?.result.email}</div>
+    </div>    
+
         <div className='btns-auth'>
         { user?.result.name ?(
             <>{<Link to={'/'} className='btn-auth'>Your channel</Link>}</>
@@ -29,8 +35,8 @@ const Auth = (
         }
        </div>
        <div className='btn-auth'>
-    < BiLogOut />Log Out
-    </div>
+        < BiLogOut />Log Out
+       </div>
     </div>
     
     </div>
