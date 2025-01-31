@@ -3,4 +3,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+.video-box-app{
+    margin: 2rem;
+}

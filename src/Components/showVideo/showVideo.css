@@ -1,8 +1,14 @@
 .video-description-nav{
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video-description{
+    display: flex;
    flex-direction: row;
    align-items:center;
-   margin-right: 1.2rem;
+   margin: -0.5rem;
 }
 
 .video-details{
@@ -23,4 +29,8 @@
     width: 30px;
     background-color: rgb(46,46,46);
     border: 1px solid rgb(128, 128, 128, 0.27);
+  }
+
+  video{
+    border-radius: 20px;
   }

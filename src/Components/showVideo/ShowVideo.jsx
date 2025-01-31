@@ -2,14 +2,16 @@ import React from 'react';
 import './showVideo.css';
 import { Link } from 'react-router-dom';
 import moment from 'moment';
+import { GoDotFill } from "react-icons/go";
 
 const ShowVideo = ({vid}) => {
   return (
     <>
-   <Link to={'/'} >
+   <Link to={`/videopage/${vid.id}`} >
     <video src={vid.vid_src}  className='video_showVideo' />
    </Link>
    <div className='video-description-nav'>
+   <div className='video-description'>
     <div className='vid-channel-logo'>
         <>{vid?.uploader?.charAt(0).toUpperCase()}</>
     </div>
@@ -20,8 +22,10 @@ const ShowVideo = ({vid}) => {
    <div className='video-details'>
     <pre>{vid?.uploader}</pre>
     <pre className='video-uploadtime'>
-        {vid?.viewsf} views <div className='dot'>{moment(vid?.createdAt).fromNow()}</div>
+        {vid?.views} views 
+        <div className='dot'><GoDotFill size={10}/>{moment(vid?.createdAt).fromNow()}</div>
     </pre>
+   </div>
    </div>
    </>
   )

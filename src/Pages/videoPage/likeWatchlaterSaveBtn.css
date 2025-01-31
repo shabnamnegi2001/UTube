@@ -1,0 +1,8 @@
+.btn-page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-page{
+    cursor: pointer;
+}
