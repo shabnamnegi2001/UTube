@@ -28,7 +28,7 @@ const LeftSidebar = () => {
         < MdOutlineSubscriptions size={22} className='icon-sidebar'/>
         <div className='icon-sidebar-text'>Subscriptions</div>
       </div>
-      <NavLink to={'/'} className='icon-sidebar-div'>
+      <NavLink to={'/library'} className='icon-sidebar-div'>
       < MdOutlineVideoLibrary size={22} className='icon-sidebar'/>
       <div className='icon-sidebar-text'>Library</div>
       </NavLink>

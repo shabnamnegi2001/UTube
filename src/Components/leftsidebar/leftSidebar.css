@@ -49,17 +49,17 @@
         
     .drawersidebar-container-nav{
         position: absolute;
-        display: flex;
+        display: none;
         position: absolute;
+        width: auto;   
         width: 100vw;
-        /* z-index: 500; */
     }
     
     .drawersidebar-container{
         height: calc(100vh - 3.6rem);
         overflow-y: auto;
         background-color: rgb(28,28,28);
-        width: 15rem;
+        width: 20rem;
     }
     
     .subscription-icon-sidebar-div{

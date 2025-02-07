@@ -7,17 +7,19 @@
     left: 0;
     box-sizing: border-box;
     display: flex;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .auth-container{
     display: flex;
+    width:30%;
+    padding: 1rem;
     flex-direction: column;
     position: absolute;
     background-color: rgb(16,16,16);
     top: 1rem;
     right: 2.5rem;
-    /* z-index: 500; */
+    z-index: 500;
     text-align:center;
     color: aliceblue;
     border-radius: 5px;

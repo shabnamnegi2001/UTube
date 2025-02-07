@@ -15,10 +15,11 @@ const Navbar = ({setEditCreateChanelBtn, toggleDrawer}) => {
 const [authBtn ,setAuthBtn] = useState(false);
 // const currentUser = null;
 const currentUser = {
-  result:{
-    name: "radha",
-    email : "abc@gmail.com",
-    joinedOn : "33-12-2039"
+  result: {
+    id: 1,
+    name: "abcjabsc",
+    email: "abcd@gmail.com",
+    joinedon: "222-07-134",
   }
 }
 

@@ -8,41 +8,41 @@ import { NavLink } from 'react-router-dom';
 
 const DrawerSliderbar = ({toggleDrawer, setToggledrawerSidebar, toggledrawerSidebar}) => {
   return (
-    <div className='drawersidebar-container-nav'>
-      <div className='drawersidebar-container' style={toggledrawerSidebar}>
+    <div className='drawersidebar-container-nav'  style={toggledrawerSidebar}>
+      <div className='drawersidebar-container'>
         <div className='drawer-leftsidebar'>
           <NavLink to={'/'} className='drawer-icon-sidebar-div'>
             < AiOutlineHome size={30} style={{margin:'auto 0.7rem'}}/>
             <p>Home</p>
           </NavLink>
-          <div className='drawer-icon-sidebar-div'>
+          <NavLink to={'/'} className='drawer-icon-sidebar-div'>
             <MdOutlineExplore className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>Explore</p>
-          </div>
-          <div className='drawer-icon-sidebar-div'>
+          </NavLink>
+          <NavLink to={'/'} className='drawer-icon-sidebar-div'>
             <SiYoutubeshorts className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>Shorts</p>
-          </div>
+          </NavLink>
           <div className='drawer-icon-sidebar-div border-div'>
             <MdOutlineSubscriptions className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>Subsciptions</p>
           </div>
-          <div className='drawer-icon-sidebar-div'>
+          <NavLink to={'/library'} className='drawer-icon-sidebar-div'>
             <MdOutlineVideoLibrary className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>Library</p>
-          </div>
-          <div className='drawer-icon-sidebar-div'>
+          </NavLink>
+          <NavLink to={'/watchHistory'} className='drawer-icon-sidebar-div'>
             <FaHistory className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>History</p>
-          </div>
+          </NavLink>
           <div className='drawer-icon-sidebar-div'>
             <AiFillPlaySquare className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>Your Videos</p>
           </div>
-          <div className='drawer-icon-sidebar-div border-div'>
+          <NavLink to={'/likedVideo'} className='drawer-icon-sidebar-div border-div'>
             < AiFillLike  className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>
             <p>Liked Videos</p>
-          </div>
+          </NavLink>
           <div className='subscription-icon-sidebar-div'>
             <div style={{display: 'flex', margin: '-10px auto'}}>
             <MdOutlineSubscriptions className='icon-sidebar' size={26} style={{margin:'auto 0.7rem'}}/>

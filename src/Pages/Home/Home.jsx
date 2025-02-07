@@ -16,7 +16,7 @@ const Home = () => {
     "Gaming",
     "Comedy"
  ];
-
+ 
  const vids = [
   {
     id:1,

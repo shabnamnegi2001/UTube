@@ -1,0 +1,52 @@
+.container-pages-app{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+}
+
+.container-WHL{
+margin: 0;
+display: flex;
+padding: 0.5rem;
+justify-content: space-around;
+}
+
+.box-WHL{
+    width: 45%;
+    padding: 0.8rem;
+    margin: 0.08rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_WHL b {
+    font-size: 3rem;
+    color: white;
+  }
+  .clear-history-btn {
+    color: grey;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto 0;
+  }
+  .clear-history-btn:hover {
+    color: white;
+  }
+  .rightSide-whl{
+    text-decoration: underline;
+    color: white;
+  }
+  .leftSide-whl{
+    background-color: rgba(0, 0, 0, 0.153);
+    height: 50vh;
+    width: 400px;
+  }
+  
+  .whl-list{
+      overflow-y: auto;
+      width : 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }

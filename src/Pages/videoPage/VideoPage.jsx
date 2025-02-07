@@ -70,10 +70,6 @@ const vids = [
   }
 }
 
-useEffect(() => {
-  console.log(vv);
-},[]);
-
   return (
     <>
       <div className='container_videoPage'>
@@ -100,7 +96,7 @@ useEffect(() => {
             <h2>
               <u>comments</u>
             </h2>
-            <Comment  videoid={vv}/>
+            <Comment  videoid={vv.id}/>
           </div>
         </div>
       </div>

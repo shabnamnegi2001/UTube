@@ -28,7 +28,7 @@ const Auth = (
 
         <div className='btns-auth'>
         { user?.result.name ?(
-            <>{<Link to={'/'} className='btn-auth'>Your channel</Link>}</>
+            <>{<Link to={`/channel/${user?.result?.id}`} className='btn-auth'>Your channel</Link>}</>
         ): (
             <input type='submit' className='btn-auth' value={"Create Your Channel"} onClick={() => setEditCreateChanelBtn(true)} />
         )
@@ -38,6 +38,7 @@ const Auth = (
         < BiLogOut />Log Out
        </div>
     </div>
+    
     
     </div>
     </>
