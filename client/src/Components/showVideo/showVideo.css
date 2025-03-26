@@ -1,0 +1,36 @@
+.video-description-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video-description{
+    display: flex;
+   flex-direction: row;
+   align-items:center;
+   margin: -0.5rem;
+}
+
+.video-details{
+    display: flex;
+    flex-direction: column;
+}
+.video-uploadtime{
+    display: flex;
+}
+
+.vid-channel-logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(46,46,46);
+    border: 1px solid rgb(128, 128, 128, 0.27);
+  }
+
+  video{
+    border-radius: 20px;
+  }

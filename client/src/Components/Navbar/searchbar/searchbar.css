@@ -1,0 +1,32 @@
+.searchbar-container{
+    height: auto;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    width: auto;
+}
+
+.search-input{
+    background-color: whitesmoke;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: 1px solid lightgrey;
+    margin: 2px;
+}
+.search-div{
+    display: flex;
+    align-items: center;
+}
+
+.search-nav{
+    display: flex;
+    padding-left: 5px;
+}
+.mic-search-icon{
+    color: black;
+    margin-right: 10px;
+}

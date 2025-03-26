@@ -1,0 +1,9 @@
+.search-icon{
+    color:darkgrey;
+    margin-right: 1rem;
+}
+
+.seachlist-container{
+    background-color: royalblue;
+    /* z-index: 20000; */
+}

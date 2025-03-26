@@ -1,0 +1,72 @@
+.nav-container{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    display: flex; 
+    padding: 10px;
+    color: whitesmoke;
+    flex-direction: row ;
+    justify-content: space-between;
+    height:  calc(3.5rem - 2px);
+  }
+  .burger-logo-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+  }
+  .logo-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .icons-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+  }
+  .auth-nav{
+    display: flex;
+    align-items: center;
+  }
+.apps-box{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.app{
+  height: 3px ;
+  width: 3px;
+  border: 1px solid white;
+  margin: 0.1rem;
+}
+.channel-logo{
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;;
+  background-color: rgb(46,46,46);
+  border: 1px solid rgb(128, 128, 128, 0.27);
+}
+
+.user-container{
+  color: white;
+  cursor:pointer;
+}
+.user-container:hover{
+  transform: scale(1.2);
+}
+
+.sign-in{
+  font-size: 15px;
+}
